@@ -5,7 +5,13 @@
   box-sizing: border-box;
 }
 body{
-  max-width: 1140px;
+  /* max-width: 1140px; */
   margin: 0 auto;
   font-family: 'Inter', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
 }
