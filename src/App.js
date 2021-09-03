@@ -1,7 +1,8 @@
+import Learn from './pages/pages'
 function App() {
   return (
     <>
-      <h1>hello</h1>
+      <Learn />
     </>
   );
 }
