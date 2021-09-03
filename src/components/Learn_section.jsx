@@ -30,14 +30,14 @@ const Learn_section = (props) => {
         <h1 className="fw-bolder text-black display-6">Basics</h1>
         <Links>Browse all</Links>
       </Heading_box>
-      <div className="row">
-        <div className="col-12 col-md-6 col-lg-4">
+      <div className="row justify-content-center justify-content-md-start">
+        <div className="col-12 col-sm-8 col-md-6 col-lg-4 mb-4 mb-lg-0">
           <Learn_card title="Interface Walkthrough" img={props.img1} />
         </div>
-        <div className="col-12 col-md-6 col-lg-4">
+        <div className="col-12 col-sm-8 col-md-6 col-lg-4 mb-4 mb-lg-0">
           <Learn_card title="Bug Reporting" img={props.img2} />
         </div>
-        <div className="col-12 col-md-6 col-lg-4">
+        <div className="col-12 col-sm-8 col-md-6 col-lg-4 mb-4 mb-lg-0">
           <Learn_card title="Understanding Menus" img={props.img3} />
         </div>
       </div>

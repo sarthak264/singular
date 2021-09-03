@@ -23,7 +23,7 @@ const Caption = styled.h4`
 const Learn_card = (props) => {
   return (
       <>
-    <Card className="mb-4 d-flex align-items-center justify-content-center">
+    <Card className="mb-2 mb-lg-4 d-flex align-items-center justify-content-center">
       <img src={props.img} alt="learn card img" />
       <Tag>
           32m
