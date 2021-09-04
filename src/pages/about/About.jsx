@@ -1,15 +1,16 @@
 import "./about.css";
+import Mail_list from "../../components/Mail_list";
 
 const About = () => {
   return (
-    <>
-    <section className="banner-1">
+    <div className="container">
+      <section className="banner-1">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-6">
               <h1 className="display-1 fw-bold text-black">Humble Start</h1>
               <h1 className="display-5 fw-bold red-heading mb-4">
-              Explore new ways to engage with brands
+                Explore new ways to engage with brands
               </h1>
               <p className="mb-3 mb-lg-4">
                 Nor again is there anyone who loves or pursues or desires to
@@ -60,8 +61,12 @@ const About = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-6">
-              <h1 className="lh-1 fw-bold text-black display-5">Humble begenings.</h1>
-              <h1 className="lh-1 fw-bold text-black display-5 mb-4 mb-lg-5">Simple philosophy.</h1>
+              <h1 className="lh-1 fw-bold text-black display-5">
+                Humble begenings.
+              </h1>
+              <h1 className="lh-1 fw-bold text-black display-5 mb-4 mb-lg-5">
+                Simple philosophy.
+              </h1>
               <p className="mb-3 mb-lg-4">
                 Nor again is there anyone who loves or pursues or desires to
                 obtain pain of itself, because it is pain, but because. Nor
@@ -85,7 +90,8 @@ const About = () => {
           </div>
         </div>
       </section>
-    </>
+      <Mail_list />
+    </div>
   );
 };
 

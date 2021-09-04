@@ -1,5 +1,6 @@
 import Learn_section from "../../components/Learn_section";
 import Header from "../../components/Header";
+import Mail_list from '../../components/Mail_list'
 
 const Learn = () => {
   return (
@@ -20,6 +21,7 @@ const Learn = () => {
         img2="./images/learn/browse8.png"
         img3="./images/learn/browse9.png"
       />
+      <Mail_list />
     </div>
   );
 };

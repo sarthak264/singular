@@ -11,7 +11,7 @@ const Integration = () => {
         <Integration_cta />
       </div>
       <div id="mail-wrapper">
-          {/* <Mail_list /> */}
+          <Mail_list />
       </div>
     </div>
   );
