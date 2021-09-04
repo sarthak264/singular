@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 const Section = styled.section`
   padding: 7rem 0;
-  margin-top: 118px;
 `;
 const Subheading = styled.p`
   font-size: 1.75rem;

@@ -1,0 +1,14 @@
+#cta-wrapper{
+    margin-bottom: 7rem;
+}
+#mail-wrapper{
+    margin-bottom: 8rem;
+}
+@media screen and (max-width:768px){
+    #cta-wrapper{
+        margin-bottom: 3rem;
+    }
+    #mail-wrapper{
+        margin-bottom: 4rem;
+    }
+}

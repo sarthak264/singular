@@ -3,8 +3,10 @@ import styled from "styled-components";
 const Container = styled.div`
   border: 3px solid black;
   border-radius: 0.75rem;
-  padding: 3rem 3rem;
-  /* margin-top: 8rem; */
+  padding: 3rem;
+  @media screen and (max-width: 576px){
+    padding: 2rem;
+  }
 `;
 const Heading = styled.h1`
   font-size: 40px;

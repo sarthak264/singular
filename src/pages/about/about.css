@@ -1,0 +1,51 @@
+/* Header */
+.banner-1{
+    margin: 6.5rem 0;
+}
+.red-heading{
+    color: #ff6363;
+}
+.banner-1 p,.banner-2 p{
+    font-size: 1.25rem;
+}
+@media screen and (max-width: 576px){
+    .banner-1 p,.banner-2 p{
+        font-size: 1rem;
+    }
+}
+/* Industry Section */
+.trusted-industry{
+    background-color: #f8f8f8;
+    padding: 6rem 0;
+}
+@media screen and (max-width:768px){
+    .trusted-industry{
+        padding: 4rem 0;
+    }
+}
+.trusted-industry p{
+    margin-bottom: 3rem;
+}
+.row-item{
+    text-align: center;
+}
+.row img{
+    opacity: 0.4;
+    margin-bottom: 1.5rem;
+}
+/* Banner */
+.banner-2{
+    margin: 6.5rem 0;
+}
+@media screen and (max-width:768px) {
+    .banner-1{
+        margin: 4.5rem 0;
+    }
+    .banner-2{
+        margin: 4.5rem 0;
+    }
+}   
+.image{
+    width: 100%;
+    opacity: 1 !important;
+}
