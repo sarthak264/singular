@@ -19,12 +19,15 @@ const Tag = styled.div`
 const Caption = styled.h4`
   font-weight: 600;
 `
+const Img = styled.img`
+  opacity: 1 !important;
+`
 
 const Learn_card = (props) => {
   return (
       <>
     <Card className="mb-2 mb-lg-4 d-flex align-items-center justify-content-center">
-      <img src={props.img} alt="learn card img" />
+      <Img src={props.img} alt="learn card img" />
       <Tag>
           32m
       </Tag>
