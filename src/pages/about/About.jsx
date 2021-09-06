@@ -4,7 +4,7 @@ import { Members } from "../../components/Members";
 
 const About = () => {
   return (
-    <div className="">
+    <div className="about_us">
       <section className="banner-1">
         <div className="container">
           <div className="row justify-content-center">

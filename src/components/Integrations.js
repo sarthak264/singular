@@ -1,4 +1,4 @@
-export const Integration = [
+export const Integrationlist = [
     {
         name: 'react',
         image: './images/integration/brand1.png'
