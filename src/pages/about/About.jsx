@@ -3,7 +3,7 @@ import Mail_list from "../../components/Mail_list";
 
 const About = () => {
   return (
-    <div className="container">
+    <div className="">
       <section className="banner-1">
         <div className="container">
           <div className="row justify-content-center">

@@ -88,7 +88,7 @@ const Image = styled.img`
 
 const Mail_list = () => {
   return (
-    <Container>
+    <Container className="container">
       <div className="row px-4">
         <div className="col-md-12 col-lg-6">
           <h1 className="display-3 fw-bolder mb-4">Join our mailing list</h1>
