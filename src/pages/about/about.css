@@ -88,6 +88,9 @@
 .img_container:hover .overlay {
     opacity: 1;
 }
+.team{
+    margin-top: 9rem !important;
+}
 .team img{
     position: relative;
     border-radius: 0.5rem;

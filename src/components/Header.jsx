@@ -23,7 +23,7 @@ const Email = styled.a`
 const Header = () => {
   return (
     <Section className="header">
-      <div className=" text-black">
+      <div className="container text-black">
         <div className="col-12 col-lg-8">
           <h1 className="display-1 fw-bold">Academy</h1>
           <Subheading>
