@@ -1,4 +1,4 @@
-export default members = [
+export const Members = [
     {
         name:'Jioke Ugoorji',
         id: 1,
@@ -58,5 +58,5 @@ export default members = [
         name:'Mgbankwo Orjee',
         id: 12,
         image: './images/about us/team/mate12.png'
-    },
+    }
 ];

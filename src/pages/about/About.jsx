@@ -1,5 +1,6 @@
 import "./about.css";
 import Mail_list from "../../components/Mail_list";
+import { Members } from "../../components/Members";
 
 const About = () => {
   return (
@@ -87,6 +88,35 @@ const About = () => {
                 className="image"
               />
             </div>
+          </div>
+        </div>
+      </section>
+      <section className="team">
+        <div className="container">
+          <h1 className="fw-bold mb-5 text-black">Team members</h1>
+          <div className="row">
+            {Members.map((item, index) => {
+              return (
+                <div key={index} className="col-6 col-md-4 col-xl-3 mb-5">
+                  <div className="img_container mb-2">
+                    <img src={item.image} alt="member" />
+                  <div className="overlay">
+                    <button>
+                      <img src="./images/about us/behance.svg" alt="social" />
+                    </button>
+                    <button>
+                      <img src="./images/about us/dribbble.svg" alt="social" />
+                    </button>
+                    <button>
+                      <img src="./images/about us/twitter.svg" alt="social" />
+                    </button>
+                  </div>
+                  </div>
+                  <p className="lead text-black mb-0">{item.name}</p>
+                  <p className="small">Community</p>
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>
