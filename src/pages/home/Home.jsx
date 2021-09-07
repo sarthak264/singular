@@ -90,6 +90,25 @@ const Home = () => {
           </div>
         </section>
       </div>
+      <section className="testimonial">
+        <div className="container text-white">
+          <h4 className="mb-4 mb-sm-5 upper">What industry leaders think</h4>
+          <h1 className="display-5">
+            “Singular is an exceptional tool for design collaboration,
+            developers can easily communicate with designers in ways we never
+            anticipated”
+          </h1>
+          <hr className="text-muted" />
+          <div className="profile d-flex align-items-center">
+            <img src="./images/svg/oval.svg" alt="user" className="me-4" />
+            <div className="profile_details">
+              <h4 className="mb-1 fw-bold">Mark Lee</h4>
+              <h4 className="mb-2">Head of design</h4>
+              <img src="./images/svg/lenova.svg" alt="user" />
+            </div>
+          </div>
+        </div>
+      </section>
       <div className="container">
         <section className="price">
           <h1 className="fw-bold text-black display-5">Simple pricing</h1>
