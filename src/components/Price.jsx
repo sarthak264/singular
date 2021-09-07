@@ -21,11 +21,15 @@ const PriceTag = styled.h1`
   @media screen and (max-width: 576px){
     font-size: 2.5rem;
   }
-`;
+  `;
 const PriceContainer = styled.div`
   display: flex;
   align-items: flex-end;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  @media screen and (max-width: 576px){
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
 `;
 const List = styled.li`
   position: relative;

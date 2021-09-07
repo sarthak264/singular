@@ -11,3 +11,65 @@
     font-weight: 500;
     margin-bottom: 4rem;
 }
+.brands{
+    margin: 10rem 0;
+}
+@media screen and (max-width:991px){
+    .brands{
+        margin: 6rem 0 3rem 0;
+    }
+}
+@media screen and (max-width:768px){
+    .brands{
+        margin: 5rem 0 0rem 0;
+    }
+}
+.brands .cards img{
+    padding: 2.5rem 1.25rem;
+}
+.brands .content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.brands .lead{
+    font-weight: 400 !important;
+    padding-right: 9rem !important;
+}
+@media screen and (max-width:768px){
+    .brands .lead{
+        padding-right: 1rem !important;
+    }
+}
+@media screen and (max-width:576px){
+    .brands .lead{
+        font-size: 1rem;
+        padding-right: 1rem !important;
+    }
+    .brands .rounded-pill{
+        margin-bottom: 1rem !important;
+    }
+}
+.brands .rounded-pill{
+    display: inline-block;
+    padding: 0.25rem 1rem;
+    border: 1px solid black;
+    margin-bottom: 2rem;
+}
+.brands .red_link{
+    color: #ff6363;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.link_container{
+    display: flex;
+    align-items: center;
+}
+.link_container a{
+    margin-right: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+.link_container a:hover{
+    margin-right: 1.5rem;
+}
