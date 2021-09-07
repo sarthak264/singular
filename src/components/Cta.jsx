@@ -40,20 +40,20 @@ const Button = styled.button`
   }
 `;
 
-const Integration_cta = () => {
+const Cta = (props) => {
   return (
     <Container className="container">
       <div className="row">
-        <div className="col-md-9">
-          <Heading className="text-black">Join 100+ great companies</Heading>
+        <div className="col-md-8">
+          <Heading className="text-black">{props.title}</Heading>
           <Para>Seamless integration with your service</Para>
         </div>
-        <div className="col-md-3 d-flex align-items-center">
-          <Button className="btn ms-md-auto">Apply</Button>
+        <div className="col-md-4 d-flex align-items-center">
+          <Button className="btn ms-md-auto">{props.button}</Button>
         </div>
       </div>
     </Container>
   );
 };
 
-export default Integration_cta;
+export default Cta;

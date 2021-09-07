@@ -8,6 +8,7 @@ const Container = styled.div`
   border-radius: 1rem;
   margin-top: 2rem;
   margin-bottom: 8rem;
+  overflow: hidden;
   @media screen and (max-width: 768px) {
     padding: 3rem 2rem;
     margin-bottom: 4.5rem;

@@ -11,6 +11,10 @@ a{
 li{
   list-style: none;
 }
+button{
+  border: none;
+  outline: none;
+}
 #top_btn{
   display: none;
 }

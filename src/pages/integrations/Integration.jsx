@@ -1,6 +1,6 @@
 import "./integration.css";
 import Header from "./../../components/Header";
-import Integration_cta from "./../../components/Integration_cta";
+import Cta from "./../../components/Cta";
 import Mail_list from "./../../components/Mail_list";
 import {Integrationlist} from "./../../components/Integrations";
 
@@ -22,7 +22,7 @@ const Integration = () => {
         </div>
       </div>
       <div id="cta-wrapper">
-        <Integration_cta />
+        <Cta title="Join 100+ great companies" button="Apply"/>
       </div>
       <div id="mail-wrapper">
           <Mail_list />
