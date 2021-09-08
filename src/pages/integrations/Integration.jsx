@@ -9,6 +9,9 @@ const Integration = () => {
     <div className="container">
       <Header />
       <div id="list_wrapper">
+        <h1 className="display-5 text-black fw-bold mb-4 mb-lg-5">
+          Companies with Integrations
+        </h1>
         <div className="row">
           {Integrationlist.map((item,index) => {
             return (

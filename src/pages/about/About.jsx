@@ -4,7 +4,7 @@ import { Members } from "../../components/Members";
 
 const About = () => {
   return (
-    <div className="about_us container">
+    <div className="about_us">
       <section className="banner-1">
         <div className="container">
           <div className="row justify-content-center">
@@ -100,17 +100,20 @@ const About = () => {
                 <div key={index} className="col-6 col-md-4 col-xl-3 mb-5">
                   <div className="img_container mb-2">
                     <img src={item.image} alt="member" />
-                  <div className="overlay">
-                    <button>
-                      <img src="./images/about us/behance.svg" alt="social" />
-                    </button>
-                    <button>
-                      <img src="./images/about us/dribbble.svg" alt="social" />
-                    </button>
-                    <button>
-                      <img src="./images/about us/twitter.svg" alt="social" />
-                    </button>
-                  </div>
+                    <div className="overlay">
+                      <button>
+                        <img src="./images/about us/behance.svg" alt="social" />
+                      </button>
+                      <button>
+                        <img
+                          src="./images/about us/dribbble.svg"
+                          alt="social"
+                        />
+                      </button>
+                      <button>
+                        <img src="./images/about us/twitter.svg" alt="social" />
+                      </button>
+                    </div>
                   </div>
                   <p className="lead text-black mb-0">{item.name}</p>
                   <p className="small">Community</p>
@@ -120,7 +123,9 @@ const About = () => {
           </div>
         </div>
       </section>
-      <Mail_list />
+      <div className="container">
+        <Mail_list />
+      </div>
     </div>
   );
 };
