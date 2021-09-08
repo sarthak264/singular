@@ -4,7 +4,7 @@ import Mail_list from '../../components/Mail_list'
 
 const Learn = () => {
   return (
-    <div className="">
+    <div className="container">
       <Header />
       <Learn_section
         img1="./images/learn/browse1.png"

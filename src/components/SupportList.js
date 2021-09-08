@@ -1,0 +1,26 @@
+export const SupportList = [
+    {
+        image:'./images/support/bulb.svg'
+    },
+    {
+        image:'./images/support/chart.svg'
+    },
+    {
+        image:'./images/support/cloud2.svg'
+    },
+    {
+        image:'./images/support/compass.svg'
+    },
+    {
+        image:'./images/support/rocket.svg'
+    },
+    {
+        image:'./images/support/gift.svg'
+    },
+    {
+        image:'./images/support/personal-info.svg'
+    },
+    {
+        image:'./images/support/setting.svg'
+    },
+]
