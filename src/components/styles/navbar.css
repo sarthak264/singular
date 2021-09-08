@@ -28,6 +28,10 @@
     font-size: 1rem;
     font-weight: 500;
     color: black;
+    transition: all 0.2s ease-in-out;
+}
+.nav-menu img{
+    cursor: pointer;
 }
 @media screen and (max-width:991px){
     .navbar{

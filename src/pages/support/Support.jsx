@@ -35,7 +35,7 @@ const Support = () => {
       <div className="red_line"></div>
       <section className="main_contact">
         <div className="row">
-          <div className="col-lg-6 img_box">
+          <div className="col-md-6 img_box">
             <h1 className="display-5 text-black">Still need answers?</h1>
             <img
               src="./images/support/contact-us.svg"
@@ -49,7 +49,7 @@ const Support = () => {
               Or drop us a line on <Link>hello@singular.com</Link>
             </p>
           </div>
-          <div className="col-lg-6 px-4">
+          <div className="col-md-6 px-2 px-sm-4 pt-4 pt-md-0">
             <div className="form_container">
               <input type="text" className="mb-4" placeholder="Full Name"/>
               <input type="text" className="mb-4" placeholder="Email"/>
