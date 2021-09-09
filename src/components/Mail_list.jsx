@@ -33,7 +33,7 @@ const Input = styled.input`
   ::placeholder {
     font-size: 1.25rem;
   }
-  @media screen and (max-width: 576px){
+  @media screen and (max-width: 576px) {
     flex-grow: 0;
   }
 `;
@@ -54,13 +54,13 @@ const Button = styled.button`
   margin-left: 0.25rem;
   padding: 0.25rem;
   transition: all 0.2s ease-in-out;
-  &:hover{
+  &:hover {
     transform: translateX(0.75rem);
   }
-  @media screen and (max-width:991px){
+  @media screen and (max-width: 991px) {
     display: none;
   }
-`
+`;
 const Blackbtn = styled.button`
   background-color: black;
   color: white;
@@ -72,24 +72,30 @@ const Blackbtn = styled.button`
   border: none;
   outline: none;
   border-radius: 0.5rem;
-  @media screen and (min-width:991px){
+  @media screen and (min-width: 991px) {
     display: none;
   }
-`
+`;
 const Image = styled.img`
   width: 55%;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   right: -10%;
-  @media screen and (max-width:991px){
+  @media screen and (max-width: 991px) {
     display: none;
   }
 `;
 
 const Mail_list = () => {
   return (
-    <Container className="container">
+    <Container
+      className="container"
+      data-aos="fade-right"
+      data-aos-delay="400"
+      data-aos-duration="1200"
+      data-aos-offset="100"
+    >
       <div className="row px-4">
         <div className="col-md-12 col-lg-6">
           <h1 className="display-3 fw-bolder mb-4">Join our mailing list</h1>
@@ -99,12 +105,10 @@ const Mail_list = () => {
               <img src="./images/svg/right-arrow.svg" alt="submit" />
             </Button>
           </InputContainer>
-          <Blackbtn>
-            Join me
-          </Blackbtn>
+          <Blackbtn>Join me</Blackbtn>
           <Small className="mb-0">
             By joining to our newsletter you’re agreeing to our
-          <Address> Terms & Conditions</Address>
+            <Address> Terms & Conditions</Address>
           </Small>
         </div>
         <Image src="./images/svg/maillist-bg.svg" alt="mail list bg" />

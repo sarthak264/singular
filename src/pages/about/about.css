@@ -9,6 +9,10 @@
 /* Header */
 .banner-1{
     margin: 6.5rem 0;
+    overflow: hidden;
+}
+.banner-2{
+    overflow: hidden;
 }
 .red-heading{
     color: #ff6363;

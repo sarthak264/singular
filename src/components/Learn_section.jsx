@@ -26,11 +26,16 @@ const Links = styled.a`
 const Learn_section = (props) => {
   return (
     <Section className="container">
-      <Heading_box>
+      <Heading_box data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">
         <h1 className="fw-bolder text-black display-6">Basics</h1>
         <Links>Browse all</Links>
       </Heading_box>
-      <div className="row justify-content-center justify-content-md-start">
+      <div
+        className="row justify-content-center justify-content-md-start"
+        data-aos="fade-up"
+        data-aos-duration="1200"
+        data-aos-delay="200"
+      >
         <div className="col-12 col-sm-8 col-md-6 col-lg-4 mb-4 mb-lg-0">
           <Learn_card title="Interface Walkthrough" img={props.img1} />
         </div>

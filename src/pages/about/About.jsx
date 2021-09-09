@@ -9,17 +9,38 @@ const About = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-6">
-              <h1 className="display-1 fw-bold text-black">Humble Start</h1>
-              <h1 className="display-5 fw-bold red-heading mb-4">
+              <h1
+                className="display-1 fw-bold text-black"
+                data-aos="fade-down"
+                data-aos-duration="1000"
+                data-aos-delay="0"
+              >
+                Humble Start
+              </h1>
+              <h1
+                className="display-5 fw-bold red-heading mb-4"
+                data-aos="fade-down"
+                data-aos-duration="1000"
+                data-aos-delay="50"
+              >
                 Explore new ways to engage with brands
               </h1>
-              <p className="mb-3 mb-lg-4">
+              <p
+                className="mb-3 mb-lg-4"
+                data-aos="fade-down"
+                data-aos-duration="1000"
+                data-aos-delay="150"
+              >
                 Nor again is there anyone who loves or pursues or desires to
                 obtain pain of itself, because it is pain, but because. Nor
                 again is there anyone who loves or pursues or desires to obtain
                 pain of itself, because it is pain, but because.
               </p>
-              <p>
+              <p
+                data-aos="fade-down"
+                data-aos-duration="1000"
+                data-aos-delay="250"
+              >
                 Nor again is there anyone who loves or pursues or desires to
                 obtain pain of itself, because it is pain, but because. Nor
                 again is there anyone who loves or pursues or desires to obtain
@@ -31,6 +52,9 @@ const About = () => {
                 src="./images/about us/about-banner.svg"
                 alt="simple philosophy"
                 className="image"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                data-aos-delay="50"
               />
             </div>
           </div>
@@ -62,19 +86,38 @@ const About = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-6">
-              <h1 className="lh-1 fw-bold text-black display-5">
+              <h1
+                className="lh-1 fw-bold text-black display-5"
+                data-aos="fade-down"
+                data-aos-duration="1000"
+                data-aos-delay="50"
+              >
                 Humble begenings.
               </h1>
-              <h1 className="lh-1 fw-bold text-black display-5 mb-4 mb-lg-5">
+              <h1
+                className="lh-1 fw-bold text-black display-5 mb-4 mb-lg-5"
+                data-aos="fade-down"
+                data-aos-duration="1000"
+                data-aos-delay="100"
+              >
                 Simple philosophy.
               </h1>
-              <p className="mb-3 mb-lg-4">
+              <p
+                className="mb-3 mb-lg-4"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
                 Nor again is there anyone who loves or pursues or desires to
                 obtain pain of itself, because it is pain, but because. Nor
                 again is there anyone who loves or pursues or desires to obtain
                 pain of itself, because it is pain, but because.
               </p>
-              <p>
+              <p
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
                 Nor again is there anyone who loves or pursues or desires to
                 obtain pain of itself, because it is pain, but because. Nor
                 again is there anyone who loves or pursues or desires to obtain
@@ -86,6 +129,9 @@ const About = () => {
                 src="./images/about us/simple-philosophy.svg"
                 alt="simple philosophy"
                 className="image"
+                data-aos="fade-left"
+                data-aos-duration="1400"
+                data-aos-delay="50"
               />
             </div>
           </div>

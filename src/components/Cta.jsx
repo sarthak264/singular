@@ -4,7 +4,7 @@ const Container = styled.div`
   border: 3px solid black;
   border-radius: 0.75rem;
   padding: 3rem;
-  @media screen and (max-width: 576px){
+  @media screen and (max-width: 576px) {
     padding: 2rem;
   }
 `;
@@ -42,7 +42,12 @@ const Button = styled.button`
 
 const Cta = (props) => {
   return (
-    <Container className="container">
+    <Container
+      className="container"
+      data-aos="fade-up"
+      data-aos-delay="700"
+      data-aos-duration="1000"
+    >
       <div className="row">
         <div className="col-md-8">
           <Heading className="text-black">{props.title}</Heading>

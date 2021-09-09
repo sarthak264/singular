@@ -1,3 +1,7 @@
+img{
+  max-width: 100%;
+}
+
 #learn_more {
   color: #ff6363;
 }
@@ -11,17 +15,20 @@
   font-weight: 500;
   margin-bottom: 4rem;
 }
+.gray_area{
+  background: #f8f8f8;
+}
 .brands {
-  margin: 10rem 0;
+  padding: 9rem 0;
 }
 @media screen and (max-width: 991px) {
   .brands {
-    margin: 6rem 0 3rem 0;
+    padding: 6rem 0 3rem 0;
   }
 }
 @media screen and (max-width: 768px) {
   .brands {
-    margin: 5rem 0 0rem 0;
+    padding: 5rem 0 0rem 0;
   }
 }
 .brands .cards img {
@@ -36,6 +43,9 @@
 .brands .lead {
   font-weight: 400 !important;
   padding-right: 9rem !important;
+}
+.brands .cards{
+  background-color: #fff;
 }
 @media screen and (max-width: 768px) {
   .brands .lead {

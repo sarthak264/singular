@@ -1,9 +1,15 @@
+import {useEffect} from 'react';
 import { Learn, Home, About, Integration, Support } from "./pages/pages";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+  useEffect(() => {
+    Aos.init({once:true});
+  }, [])
   return (
     <>
       <Router>

@@ -8,8 +8,19 @@ const Support = () => {
       <section className="header">
         <div className="row">
           <div className="col-lg-8">
-            <h1 className="display-1 text-black fw-bold mb-4">Support</h1>
-            <h1 className="fw-bold display-5">
+            <h1
+              className="display-1 text-black fw-bold mb-4"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
+              Support
+            </h1>
+            <h1
+              className="fw-bold display-5"
+              data-aos="fade-down"
+              data-aos-duration="1250"
+              data-aos-delay="250"
+            >
               Explore new ways to engage with brands and reach
             </h1>
           </div>
@@ -22,6 +33,9 @@ const Support = () => {
               <div
                 className="col-6 col-md-4 col-lg-3 text-center card_container"
                 key={index}
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="400"
               >
                 <div className="single_card">
                   <img src={item.image} alt="support card" />
@@ -35,7 +49,12 @@ const Support = () => {
       <div className="red_line"></div>
       <section className="main_contact">
         <div className="row">
-          <div className="col-md-6 img_box">
+          <div
+            className="col-md-6 img_box"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
             <h1 className="display-5 text-black">Still need answers?</h1>
             <img
               src="./images/support/contact-us.svg"
@@ -49,14 +68,23 @@ const Support = () => {
               Or drop us a line on <Link>hello@singular.com</Link>
             </p>
           </div>
-          <div className="col-md-6 px-2 px-sm-4 pt-4 pt-md-0">
-            <div className="form_container">
-              <input type="text" className="mb-4" placeholder="Full Name"/>
-              <input type="text" className="mb-4" placeholder="Email"/>
-              <textarea name="" id="" cols="30" rows="8" placeholder="Message"></textarea>
-              <button className="black_btn">
-                Send
-              </button>
+          <div className="col-md-6 px-3  px-sm-4 pt-4 pt-md-0">
+            <div
+              className="form_container"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="400"
+            >
+              <input type="text" className="mb-4" placeholder="Full Name" />
+              <input type="text" className="mb-4" placeholder="Email" />
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="8"
+                placeholder="Message"
+              ></textarea>
+              <button className="black_btn">Send</button>
             </div>
           </div>
         </div>

@@ -3,6 +3,7 @@
 }
 section.support_cards {
   margin-bottom: 5rem;
+  overflow: hidden;
 }
 .card_container {
   margin-bottom: 2rem;
@@ -38,6 +39,7 @@ section.support_cards {
 }
 .main_contact {
   margin: 7rem 0;
+  overflow-x: hidden;
 }
 .img_box .lead {
   font-weight: 400;
