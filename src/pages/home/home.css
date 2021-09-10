@@ -258,10 +258,13 @@ img {
   .red_btn{
     margin-right: 0;
   }
+  .home_header{
+    padding: 7rem 0 4rem 0;
+  }
 }
 @media screen and (max-width: 576px){
   .home_header{
-    padding: 4rem 0 3.5rem 0;
+    padding: 7rem 0 4rem 0;
   }
   .mobile_right{
     width: 5rem;

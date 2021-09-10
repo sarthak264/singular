@@ -14,7 +14,7 @@ const Home = () => {
         <img src="./images/svg/banner-bg.svg" alt="" className="header_bg" />
         <img src="./images/svg/mobile-banner-right.svg" alt="" className="mobile_right" />
         <img src="./images/svg/mobile-banner-left.svg" alt="" className="mobile_left" />
-        <div className="container text-center mb-0 mb-md-5">
+        <div className="container text-center">
           <div className="row justify-content-center">
             <div className="col-lg-10 col-xl-8 text-black">
               <h1
@@ -54,7 +54,7 @@ const Home = () => {
                 </button>
               </div>
               <p
-                className="small text-muted mt-3 mt-sm-4"
+                className="small text-muted mt-3 mt-sm-4 mb-0"
                 data-aos="fade-up"
                 data-aos-duration="1100"
                 data-aos-delay="150"
