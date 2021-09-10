@@ -2,6 +2,10 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 const Section = styled.section`
   padding: 7rem 0;
+  margin-top: 7rem;
+  @media screen and (max-width:768px){
+    margin-top: 5.5rem;
+  }
 `;
 const Subheading = styled.p`
   font-size: 1.75rem;
