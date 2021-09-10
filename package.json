@@ -1,5 +1,6 @@
 {
   "name": "fabrx-singular",
+  "homepage": "https://sarthak264.github.io/singular",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
