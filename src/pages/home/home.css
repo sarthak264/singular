@@ -1,12 +1,12 @@
-img{
+img {
   max-width: 100%;
 }
-
 #learn_more {
   color: #ff6363;
 }
 .price {
   margin: 5rem 0;
+  overflow: hidden;
 }
 .below_price {
   margin-bottom: 4rem;
@@ -15,11 +15,15 @@ img{
   font-weight: 500;
   margin-bottom: 4rem;
 }
-.gray_area{
+.gray_area {
   background: #f8f8f8;
 }
 .brands {
   padding: 9rem 0;
+  overflow: hidden;
+}
+.cards_container {
+  overflow: hidden;
 }
 @media screen and (max-width: 991px) {
   .brands {
@@ -44,7 +48,7 @@ img{
   font-weight: 400 !important;
   padding-right: 9rem !important;
 }
-.brands .cards{
+.brands .cards {
   background-color: #fff;
 }
 @media screen and (max-width: 768px) {
@@ -92,19 +96,77 @@ img{
   .testimonial {
     padding: 5rem 0;
   }
-  .testimonial hr{
-      margin: 1.5rem 0 !important;
+  .testimonial hr {
+    margin: 1.5rem 0 !important;
   }
 }
-.testimonial h4.upper{
-    font-weight: 600;
+.testimonial h4.upper {
+  font-weight: 600;
 }
-.testimonial .profile h4{
-    font-size: 1.25rem;
+.testimonial .profile h4 {
+  font-size: 1.25rem;
 }
 .testimonial h1 {
   font-weight: 400;
 }
-.testimonial hr{
-    margin: 2.5rem 0;
+.testimonial hr {
+  margin: 2.5rem 0;
+}
+/* top padding */
+.top_padding {
+  padding: 25rem 0 9rem 0;
+}
+/* video container */
+.video_wrapper {
+  position: relative;
+  padding: 10rem 0 21rem 0;
+}
+.video_wrapper .lead {
+  font-weight: 400;
+}
+.video_container {
+  width: 100%;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  padding: 3.5rem 0;
+  background-color: #fff;
+  position: absolute;
+  border-radius: 1rem;
+  box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.07);
+  z-index: 999;
+  overflow: hidden;
+}
+.video_container .video_thumbnail {
+  height: 100%;
+}
+.video_container .play_icon {
+  position: absolute;
+  top: 3rem;
+  right: 3rem;
+  cursor: pointer;
+}
+@media screen and (max-width: 576px) {
+  .video_wrapper {
+    padding: 3rem 0 21rem 0;
+    overflow: hidden;
+  }
+  .top_padding {
+    padding: 5rem 0 5rem 0;
+  }
+  .video_container {
+    width: 85%;
+    padding: 2rem 0;
+  }
+  .video_thumbnail {
+    width: 250px;
+  }
+  .play_icon{
+    top: 1rem !important;
+    right: 1rem !important;
+    width: 40px;
+  }
+  .video_wrapper .lead {
+    font-size: 1rem;
+  }
 }

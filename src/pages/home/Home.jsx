@@ -10,21 +10,49 @@ const Home = () => {
   const Integrations = Integrationlist.slice(0, 9);
   return (
     <>
-      {/* <div className="gray_area">
-        <div className="container">
+      <div className="gray_area">
+        <div className="container video_wrapper">
           <div className="row justify-content-center">
             <div className="col-lg-8 text-center">
-              <h1 className="display-5 fw-bold text-black">
+              <h1
+                className="display-5 fw-bold text-black"
+                data-aos="fade-down"
+                data-aos-duration="1000"
+                data-aos-delay="50"
+              >
                 We love to explore new ways to engage with brands and reach
               </h1>
-              <p className="lead px-5">
+              <p
+                className="lead px-5 mb-3 mb-sm-5"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="50"
+              >
                 Nor again is there anyone who loves or pursues or desires to
                 obtain pain of itself, because it is pain, but because.
               </p>
+              <div className="video_container">
+                <img
+                  src="./images/svg/video-poster.svg"
+                  className="video_thumbnail"
+                  alt="video thumbnail"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                  data-aos-delay="350"
+                />
+                <img
+                  src="./images/svg/play-icon.svg"
+                  alt="video thumbnail"
+                  className="play_icon"
+                  data-aos="fade-left"
+                  data-aos-duration="1100"
+                  data-aos-delay="550"
+                />
+              </div>
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
       <div className="container">
         <section className="brands top_padding">
           <div className="row">
@@ -170,7 +198,7 @@ const Home = () => {
             </div>
             <div className="row justify-content-center">
               <div
-                className="col-lg-6"
+                className="col-md-8 col-lg-6"
                 data-aos="fade-up"
                 data-aos-duration="1200"
                 data-aos-delay="450"
@@ -178,7 +206,7 @@ const Home = () => {
                 <Home_card theme="red" image="./images/svg/cloud.svg" />
               </div>
               <div
-                className="col-lg-6"
+                className="col-md-8 col-lg-6"
                 data-aos="fade-up"
                 data-aos-duration="1200"
                 data-aos-delay="450"
