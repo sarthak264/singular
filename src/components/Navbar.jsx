@@ -15,7 +15,7 @@ const Navbar = () => {
     >
       <div className="nav p-0 m-0 w-100">
         <Link to="/">
-          <img src="./images/svg/logo.svg" alt="logo" />
+          <img src="./images/svg/logo.svg" alt="logo" onClick={toggle}/>
         </Link>
         <img
           src="./images/svg/menu-toggle.svg"

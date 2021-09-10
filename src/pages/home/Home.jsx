@@ -10,6 +10,61 @@ const Home = () => {
   const Integrations = Integrationlist.slice(0, 9);
   return (
     <>
+      <header className="home_header">
+        <img src="./images/svg/banner-bg.svg" alt="" className="header_bg" />
+        <img src="./images/svg/mobile-banner-right.svg" alt="" className="mobile_right" />
+        <img src="./images/svg/mobile-banner-left.svg" alt="" className="mobile_left" />
+        <div className="container text-center mb-0 mb-md-5">
+          <div className="row justify-content-center">
+            <div className="col-lg-10 col-xl-8 text-black">
+              <h1
+                className="display-1 fw-bold mb-3 mb-sm-4 heading"
+                data-aos="fade-down"
+                data-aos-duration="1000"
+                data-aos-delay="50"
+              >
+                Supercharge your design talks
+              </h1>
+              <h3
+                className="sub_heading"
+                data-aos="fade-down"
+                data-aos-duration="1000"
+                data-aos-delay="250"
+              >
+                On the other hand, we denounce with righteous indignation and
+                dislike men who are
+              </h3>
+              <div className="button_row">
+                <button
+                  className="red_btn"
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                  data-aos-delay="150"
+                >
+                  Try for free
+                </button>
+                <button
+                  className="black_btn"
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                  data-aos-delay="150"
+                  data-aos-offset="0"
+                >
+                  See Pricing
+                </button>
+              </div>
+              <p
+                className="small text-muted mt-3 mt-sm-4"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+                data-aos-delay="150"
+              >
+                Fully featured free 30-day free trial
+              </p>
+            </div>
+          </div>
+        </div>
+      </header>
       <div className="gray_area">
         <div className="container video_wrapper">
           <div className="row justify-content-center">
